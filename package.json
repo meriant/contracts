@@ -1,0 +1,24 @@
+{
+  "name": "aggregator-contracts",
+  "description": "On-chain execution contracts for the DEX aggregator",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "5.7.0",
+    "solady": "0.1.26"
+  },
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std#v1.16.2",
+    "prettier": "^3.5",
+    "solhint": "^5.1"
+  },
+  "scripts": {
+    "build": "forge build",
+    "clean": "forge clean",
+    "format": "forge fmt && prettier --write \"**/*.{json,md,yml}\"",
+    "format:check": "forge fmt --check && prettier --check \"**/*.{json,md,yml}\"",
+    "lint": "bun run format:check && solhint \"{script,src,test}/**/*.sol\"",
+    "test": "forge test"
+  }
+}

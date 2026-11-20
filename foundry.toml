@@ -1,0 +1,35 @@
+# Full reference: https://book.getfoundry.sh/reference/config/overview
+
+[profile.default]
+  auto_detect_solc = false
+  block_timestamp = 1_738_368_000
+  bytecode_hash = "none"
+  evm_version = "shanghai"
+  fuzz = { runs = 1_000 }
+  gas_reports = ["*"]
+  optimizer = true
+  optimizer_runs = 10_000
+  out = "out"
+  remappings = ["solmate/=lib/create3-factory/lib/solmate/src/"]
+  script = "script"
+  solc = "0.8.37"
+  src = "src"
+  test = "test"
+
+[profile.ci]
+  fuzz = { runs = 10_000 }
+  verbosity = 4
+
+[fmt]
+  bracket_spacing = true
+  int_types = "long"
+  line_length = 120
+  multiline_func_header = "all"
+  number_underscore = "thousands"
+  prefer_compact = "none"
+  quote_style = "double"
+  tab_width = 4
+  wrap_comments = true
+
+[etherscan]
+mainnet = { key = "${ETHERSCAN_API_KEY}" }

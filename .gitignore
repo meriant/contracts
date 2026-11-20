@@ -1,0 +1,15 @@
+# Foundry
+cache/
+out/
+broadcast/
+
+# Dependencies
+node_modules/
+
+# Environment and local tooling
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.log
+.DS_Store
