@@ -52,7 +52,8 @@ Amounts are expressed in token base units, and `deadline` is a Unix timestamp in
 
 ## Development
 
-Install [Foundry](https://getfoundry.sh/) and [Bun](https://bun.sh/), then run from the repository root.
+Install [Foundry v1.10.0](https://github.com/foundry-rs/foundry/releases/tag/v1.10.0) and [Bun](https://bun.sh/), then
+run from the repository root.
 
 ```bash
 git submodule update --init --recursive
