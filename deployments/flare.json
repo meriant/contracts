@@ -1,0 +1,28 @@
+{
+  "contracts": {
+    "create3Factory": {
+      "address": "0xCaca7088ba73E5dF2830388E6E370884A097852a",
+      "transactionHash": "0x06243137401b9bde6416a94ea5b029ec759f2224fed8901afb1bd5240dddd2df"
+    },
+    "swapRouter": {
+      "address": "0x00000006bb6441800E93377b5a2Df8D1a4CBC040",
+      "transactionHash": "0x3337fe6c00f1a36abaa595bbe20eb7d5f6f758e2d200121f800e01baab0a4a3c"
+    },
+    "blazeSwapExecutor": {
+      "address": "0xAE09BeaD07d945584C5Beb575b01D93112851B16",
+      "transactionHash": "0x538daf24c051285166f041a170c952f9f2fd4fb0894eea3671355ce70946095f"
+    },
+    "sparkDEXV3Executor": {
+      "address": "0x817A5B242549312e15E2EcdD6Bb8595A0Cb97a74",
+      "transactionHash": "0x9b2a369c820ad5aa3797258576291e35aaf61328d2f93d7e21258392faf457eb"
+    },
+    "enosysV3Executor": {
+      "address": "0x7E93d04374Cd782869D164ee1db3B2240043D734",
+      "transactionHash": "0x4a59b49c95f9d2da31d57f6bc667a10964167b5eb222fb0c4fe76d283e7b3031"
+    },
+    "sparkDEXV4Executor": {
+      "address": "0x3a0bdA94bd6D1a9722674177A7aF7E5bC3D80Cb4",
+      "transactionHash": "0xc52ea3f7a53b1bbf52360f6a94176478b5b36e29f07578e7ec9469d0a4826d3d"
+    }
+  }
+}

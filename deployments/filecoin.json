@@ -1,0 +1,24 @@
+{
+  "contracts": {
+    "create3Factory": {
+      "address": "0xCaca7088ba73E5dF2830388E6E370884A097852a",
+      "transactionHash": "0xe5bcab74f18c3a9dc81ea8d6e9b57411a74143f00a594fb26a70f6eb27eda9bf"
+    },
+    "swapRouter": {
+      "address": "0x00000006bb6441800E93377b5a2Df8D1a4CBC040",
+      "transactionHash": "0x83de6ede86821745dd1777191bac3714102e8d4dd58b1522b3801c37b0a71d82"
+    },
+    "sushiswapV2Executor": {
+      "address": "0xAE09BeaD07d945584C5Beb575b01D93112851B16",
+      "transactionHash": "0xfa2ff75dd52db9178fb2db935ff502f748b83ada3202861a4ba4a2281e0717ab"
+    },
+    "sushiswapV3Executor": {
+      "address": "0x817A5B242549312e15E2EcdD6Bb8595A0Cb97a74",
+      "transactionHash": "0x8c9f5fcf9bb0cd3fbd2da9450dc96938306e17f4b0dee80b44d8d18e45efe396"
+    },
+    "uniswapV3Executor": {
+      "address": "0x7E93d04374Cd782869D164ee1db3B2240043D734",
+      "transactionHash": "0x71bc2061c19c04ecfce06589678b5c11f2f6cbe77ea3fc69748344541b4f5dbe"
+    }
+  }
+}

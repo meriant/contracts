@@ -1,0 +1,28 @@
+{
+  "contracts": {
+    "create3Factory": {
+      "address": "0xCaca7088ba73E5dF2830388E6E370884A097852a",
+      "transactionHash": "0x6a31d1fa7cb0596aa2b6e51c74c99ae478410976a28e105cce9ea0b43faadc1e"
+    },
+    "swapRouter": {
+      "address": "0x00000006bb6441800E93377b5a2Df8D1a4CBC040",
+      "transactionHash": "0x74b11ba7cc28b93b91a9fe696c5233d776679a937eae4e8e24a65b81b1051bd5"
+    },
+    "netSwapExecutor": {
+      "address": "0xAE09BeaD07d945584C5Beb575b01D93112851B16",
+      "transactionHash": "0x52bc3bbbce0865f07e8fd7fa3359119bc346d51261ff4df43f019ea71c193920"
+    },
+    "tethysExecutor": {
+      "address": "0x817A5B242549312e15E2EcdD6Bb8595A0Cb97a74",
+      "transactionHash": "0x89e134f3e0e6bac737cd54511ec19f20a6d6a5191f114c3e9a7b5b2930e00048"
+    },
+    "herculesV3Executor": {
+      "address": "0x7E93d04374Cd782869D164ee1db3B2240043D734",
+      "transactionHash": "0x3b0da3f3c630bf4a5d3816c8afb3bb0ba9ec971a8aa0993d25bbdc7123b32b49"
+    },
+    "wagmiV3Executor": {
+      "address": "0x3a0bdA94bd6D1a9722674177A7aF7E5bC3D80Cb4",
+      "transactionHash": "0x3c9885d2b28ac43ca1ca93737cad29279427ddc9c604c005235a59f7c617925a"
+    }
+  }
+}

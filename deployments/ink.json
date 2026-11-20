@@ -1,0 +1,28 @@
+{
+  "contracts": {
+    "create3Factory": {
+      "address": "0xCaca7088ba73E5dF2830388E6E370884A097852a",
+      "transactionHash": "0xe57ea7cfdea863242225a38ac6c806775c09701ea86b1f5b2efc93e993622da4"
+    },
+    "swapRouter": {
+      "address": "0x00000006bb6441800E93377b5a2Df8D1a4CBC040",
+      "transactionHash": "0xdeebb2de3b2730b47e6c93313f0e0d9739d90730b8a4b8d1d0ec0b9bfb7bc108"
+    },
+    "uniswapV3Executor": {
+      "address": "0xAE09BeaD07d945584C5Beb575b01D93112851B16",
+      "transactionHash": "0xecc10be8990f82d2beb28d7a702b3fc1b85dd99ef5509581a0e801b275237a98"
+    },
+    "uniswapV4Executor": {
+      "address": "0x817A5B242549312e15E2EcdD6Bb8595A0Cb97a74",
+      "transactionHash": "0xab9479ccd594fbbf20109e35333176d0d20e68be9445330c1940213c7c5ffa22"
+    },
+    "velodromeV3Executor": {
+      "address": "0x7E93d04374Cd782869D164ee1db3B2240043D734",
+      "transactionHash": "0x8f00530aa1d38153dcdf8d4b30da71a7491544ef9963c5e1fb0641cca5b65be7"
+    },
+    "aeroSlipstreamExecutor": {
+      "address": "0x3a0bdA94bd6D1a9722674177A7aF7E5bC3D80Cb4",
+      "transactionHash": "0x644e2e87c103138c71d989f349cf941fe4c6df5a079a1cdb23c9fc2e496a79fb"
+    }
+  }
+}
